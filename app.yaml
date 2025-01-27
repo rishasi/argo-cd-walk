@@ -15,7 +15,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: nginx
+      - name: httpd
         image: httpd
         ports:
         - containerPort: 80
